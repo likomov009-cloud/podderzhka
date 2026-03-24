@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Для тебя</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#f7c1b5">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ты не одна ❤️</h1>
+            <p>Я всегда рядом, даже когда далеко</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="words">Слова</button>
+            <button class="tab-btn" data-tab="photos">Фото</button>
+            <button class="tab-btn" data-tab="phrases">Фразы</button>
+            <button class="tab-btn" data-tab="letter">Письмо</button>
+        </nav>
+
+        <div class="tab-content active" id="words">
+            <div class="card">
+                <p>Я знаю, как тебе сейчас тяжело. Хочу, чтобы ты знала: твоя боль — это и моя боль. Мы вместе переживём это.</p>
+                <p>Твой брат навсегда останется в наших сердцах. Я помню, как ты о нём рассказывала…</p>
+                <p>Я буду рядом, даже если не могу обнять. Каждый раз, когда откроешь это приложение, знай: я думаю о тебе.</p>
+            </div>
+        </div>
+
+        <div class="tab-content" id="photos">
+            <div class="gallery" id="galleryContainer"></div>
+        </div>
+
+        <div class="tab-content" id="phrases">
+            <div class="phrase-card-random">
+                <div class="phrase-image">
+                    <img id="randomPhraseImage" src="" alt="Фото">
+                </div>
+                <div class="phrase-text" id="randomPhraseText">
+                    Здесь будет фраза
+                </div>
+                <button id="nextPhraseBtn" class="next-phrase-btn">💫 Другая фраза</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="letter">
+            <div class="card letter">
+                <p>Моя родная,</p>
+                <p>Сегодня ты прошла через то, что невозможно передать словами. Смерть такого близкого человека... Я знаю, как это тяжело. Я не могу сейчас быть рядом физически, но я здесь, в каждой строчке этого приложения.</p>
+                <p>Твой брат — герой. И ты — моя героиня. Ты проходишь туда, чтобы хоть что-то мне помогло тебе облегчить боль в те моменты, когда не хочешь никого видеть, и если даже со мной что-то случится, то это приложение остается с тобой. Здесь — мои слова, наши фото, сотни фраз, которые остаются на стене.</p>
+                <p>Нажимай «Другая фраза» — пусть поддержка приходит неожиданно, как мои мысли о тебе.</p>
+                <p>Мы увидимся. И первое, что сделаю — обниму тебя и не отпущу.</p>
+                <p>Твой, спасибо, что ты у меня есть ❤️.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
